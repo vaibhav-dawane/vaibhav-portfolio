@@ -28,16 +28,24 @@ function Banner({id, about}) {
                 <h2 className='mt-4 text-2xl'> I am <span className='font-semibold'>IT Engineer Trainee</span></h2>
 
                 <div className='mt-8 bg-blue-500 rounded-full w-32 py-3 px-1 text-center text-base font-medium text-white hover:bg-blue-700 cursor-pointer duration-300 hover:scale-105'>
-                <a href="" onClick={handleScrollToAbout(about)}>About Me</a> {""}
+                <a className='select-none' href="" onClick={handleScrollToAbout(about)}>About Me</a> {""}
 
                 <FontAwesomeIcon className='ml-1' icon={faArrowDown} beatFade/>
                 </div>
 
                 <div className='flex space-x-6 mt-6 '>
-                    <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faSquareGithub} />
-                    <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faLinkedin} />
-                    <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faSquareXTwitter} />
-                    <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faSquareInstagram} />
+                    <a href="https://github.com/vaibhav-dawane">
+                        <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faSquareGithub} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaibhav-dawane/">
+                        <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faLinkedin} />
+                    </a>
+                    <a href="https://x.com/vaibhav_dawane">
+                        <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faSquareXTwitter} />
+                    </a>
+                    {/* <a href="">
+                        <FontAwesomeIcon className='fa-xl bg-zinc-100 rounded-full p-3 text-black cursor-pointer hover:bg-zinc-300 hover:scale-110' icon={faSquareInstagram} />
+                    </a> */}
                 </div>
             </div>
 
