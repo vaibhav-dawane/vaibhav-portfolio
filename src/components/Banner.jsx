@@ -22,12 +22,12 @@ function Banner({id, about}) {
             <div className='w-1/2 mt-28 mx-10' >
                 <div className='text-4xl font-bold space-y-1'>
                     <h1 className=''>Hey There,</h1>
-                    <h1>I'm <span className='text-blue-600 font-extrabold'>Vaibhav Dawane</span></h1>
+                    <h1>I'm <span className='text-purple-600 font-extrabold'>Vaibhav Dawane</span></h1>
                 </div>
 
-                <h2 className='mt-4 text-2xl'> I am <span className='font-semibold'>IT Engineer Trainee</span></h2>
+                <h2 className='mt-4 text-2xl'> <span className='font-semibold'>Quality Engineer</span></h2>
 
-                <div className='mt-8 bg-blue-500 rounded-full w-32 py-3 px-1 text-center text-base font-medium text-white hover:bg-blue-700 cursor-pointer duration-300 hover:scale-105'>
+                <div className='mt-8 bg-purple-600 rounded-full w-32 py-3 px-1 text-center text-base font-medium text-white hover:bg-blue-700 cursor-pointer duration-300 hover:scale-105'>
                 <a className='select-none' href="" onClick={handleScrollToAbout(about)}>About Me</a> {""}
 
                 <FontAwesomeIcon className='ml-1' icon={faArrowDown} beatFade/>
@@ -51,7 +51,7 @@ function Banner({id, about}) {
 
             {/* right */}
             <div className='w-1/2 mt-20 flex items-center justify-center'>
-                <img src="./about-me.png" width={300} alt="dp" />
+                <img src="./profile-photo.png" width={300} alt="dp" />
             </div>
         </div>
     );

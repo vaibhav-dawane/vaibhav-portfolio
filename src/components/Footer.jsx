@@ -15,7 +15,7 @@ function Footer({home, about}) {
 
     return (
         <div>
-            <footer className="footer footer-center bg-zinc-300 dark:bg-slate-800 text-base-content rounded p-10 shadow-inner">
+            <footer className="footer footer-center bg-zinc-300 dark:bg-purple-600 dark:text-white rounded p-10 shadow-inner">
                 <nav className="grid grid-flow-col gap-4">
                     <a href="#" onClick={handleScrollToAbout(home)} className="link link-hover">Home</a>
                     <a href="#" onClick={handleScrollToAbout(about)} className="link link-hover">About</a>

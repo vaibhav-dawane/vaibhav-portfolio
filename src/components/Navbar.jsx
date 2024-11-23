@@ -53,8 +53,8 @@ function Navbar({about, home, contact, education, project}) {
 
     return (
         <div>
-            <div id='navbar' className={`navbar flex justify-around bg-zinc-100 dark:bg-slate-700 fixed left-0 right-0 top-0 z-50
-                ${sticky ? "sticky-navbar shadow-md bg-zinc-300 dark:bg-slate-800 duration-300 transition-all ease-in-out" : ""}
+            <div id='navbar' className={`navbar flex justify-around bg-zinc-100 dark:bg-purple-500 fixed left-0 right-0 top-0 z-50
+                ${sticky ? "sticky-navbar shadow-md bg-zinc-300 dark:bg-purple-600 duration-300 transition-all ease-in-out" : ""}
                 `}>
                 <div className="navbar-start">
                     <a className="btn btn-ghost text-2xl font-bold">Vaibhav Dawane</a>
@@ -62,7 +62,7 @@ function Navbar({about, home, contact, education, project}) {
 
                 <div className="mr-20">
                     <div className='flex'>
-                        <ul className="menu menu-horizontal flex-nowrap px-1">
+                        <ul className="menu menu-horizontal flex-nowrap px-1 font-semibold">
                             <li><a href="" onClick={handleScrollToAbout(home)}>Home</a></li>
                             <li><a href="" onClick={handleScrollToAbout(about)}>About</a></li>
                             <li><a href="" onClick={handleScrollToAbout(project)}>Project</a></li>
